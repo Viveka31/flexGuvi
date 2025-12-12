@@ -8,8 +8,8 @@ body{
 }
 .course{
     /* border: 2px solid greenyellow; */
-    height:460px;
-    width:320px;
+    height:350px;
+    width:250px;
     border-radius: 5px;
     box-shadow: 1px 1px 5px  grey,-1px -1px 5px grey;
     margin-right: 20px;
@@ -22,20 +22,23 @@ body{
    
 }
 img{
-    width:320px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width:250px;
 }
 h3{
-    height: 100px;
-    padding-bottom: 10px;
+    height: 50px;
+    padding: 0px 10px 30px 0px;
     font-weight: 600;
-    font-size: medium;
+    font-size: x-small;
 }
 p{
     color: gray;
-    font-size:small;
+    font-size:xx-small;
 }
 button{
-    padding: 13px;
+    font-size: x-small;
+    padding: 13px 10px;
     margin-right: 5px;
     border-radius: 5px;
 }
